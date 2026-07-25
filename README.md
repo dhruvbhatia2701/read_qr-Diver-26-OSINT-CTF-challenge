@@ -1,4 +1,4 @@
-# Diver26 OSINT CTF — QR Code Extraction Write-up
+# Diver26 OSINT CTF — read_qr Write-up
 
 ## Challenge Summary
 

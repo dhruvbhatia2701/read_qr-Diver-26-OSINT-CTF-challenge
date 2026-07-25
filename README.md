@@ -12,9 +12,9 @@ mobile phone camera** — the point of the exercise is to practice with OSINT to
 - The challenge is testing familiarity with scriptable, repeatable tools (useful when you need to process many QR codes, or extract one from a  low-quality/partial image that phone scanners choke on).
 
 ## Prerequisites
-
+Install the essential libraries
 ```bash
-pip install opencv-python --break-system-packages
+pip install -r requirements.txt --break-system-packages
 ```
 
 Place `qrcode.png` in your working directory before running the script.

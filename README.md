@@ -4,18 +4,12 @@
 
 The challenge provides an image (`qrcode.png`) containing an embedded QR code.
 The goal is to extract the URL encoded inside it **without scanning it with a
-mobile phone camera** — the point of the exercise is to practice offline,
-tool-based OSINT extraction rather than relying on a phone app that might
-auto-open the link (which can be risky if the QR points to something malicious,
-and defeats the purpose of the exercise).
+mobile phone camera** — the point of the exercise is to practice with OSINT tools rather than relying on a phone app that might auto-open the link to a wrong url(which can be risky if the QR points to something malicious, and defeats the purpose of the exercise).
 
 ## Why not scan with a phone?
 
-- Phone QR scanners often auto-follow the link, which is bad practice for
-  OSINT/security work — you should inspect a URL before visiting it.
-- The challenge is testing familiarity with scriptable, repeatable tools
-  (useful when you need to process many QR codes, or extract one from a
-  low-quality/partial image that phone scanners choke on).
+- Phone QR scanners often auto-follow the link, which is bad practice for OSINT/security work — you should inspect a URL before visiting it.
+- The challenge is testing familiarity with scriptable, repeatable tools (useful when you need to process many QR codes, or extract one from a  low-quality/partial image that phone scanners choke on).
 
 ## Prerequisites
 
